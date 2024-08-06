@@ -1,0 +1,12 @@
+name: ChunkChestPlugin
+version: '1.0-SNAPSHOT'
+main: chunkchest.chunkchestplugin.ChunkChestPlugin
+api-version: 1.15
+authors: [ Thohard ]
+description: This plugin makes a chest that collects loot from the chunck its in
+depend:
+  - Essentials
+commands:
+  ChunkChest:
+    description: Manages chunk chests
+    usage: /ChunkChest [create|Delete|Sell]
